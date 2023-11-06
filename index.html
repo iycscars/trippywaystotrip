@@ -1,14 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under maintenance</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo2.png" />
+<meta charset="utf-8">
+<title> Login </title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/formatacao.css">
+<style type="text/css">
+body {
+  display: flex;
+  justify-content: center;
+	background-image: url(assets/img/background.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+</style>
+
 </head>
+
 <body>
-    <h1>Under maintenance.</h1>
-    <h2>We're back soon.</h2>
+<div class="menuzin">
+<form name="frm_login" action="neg.html" method="post">
+  <div id="principal">
+    <label> Username </label>
+    <input name="txt_usuario" type="text" class="input_01">
+
+    <label> Password </label>
+    <input name="txt_senha" type="password" class="input_01">
+
+    <input name="btn_enviar" type="submit" value="Login" class="btn">
+  </div>
+</form>
+</div>
+
 </body>
 </html>
+
